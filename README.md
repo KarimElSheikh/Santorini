@@ -30,7 +30,7 @@ graphic assets, also featuring 3 levels of AI difficulty.
 
 Check out this video showing the game in action!
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=5cPt6jUoMEU
 " target="_blank"><img src="http://img.youtube.com/vi/5cPt6jUoMEU/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="640" height="360" border="10" /></a>
 	
