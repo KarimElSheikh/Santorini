@@ -1,0 +1,32 @@
+## Overview
+Santorini is a two player strategy board game where players play on a 5 × 5 standard chessboard, and each
+player has 2 pieces. In this version of the game, player one's pieces are placed in the locations: (1,1) and
+(2,5), and player two's pieces are placed in the locations (4,1) and (5,5).
+First, each player chooses a piece type: either cube or pyramid, with no constraints on their picking. Both
+of the player's pieces have to be of the type that he/she chose. We'll explain the difference between the 2
+types in what follows...
+The 2 players alternate turns: each turn a player must move one of their 2 pieces a distance of 1 vertically
+or horizontally (if you're a cube type), or diagonally (if you're a pyramid type), then they must must place
+a tile next to the location of the piece that's just moved.
+The tile is to be placed 1 distance away from the piece's new location on unoccupied locations only.
+Each placed tile increases the height of that location by 1 up to a maximum of height 3. Players can only
+move to unoccupied location that are maximum 1 level higher (any level lower is okay). Additionally, players
+can place domes on unoccupied 3-levels high locations in  the same way that they place tiles, that move
+essentially destroys that location, preventing any piece from stepping in there.
+A player wins if they move one of their pieces to a 3-levels high location or if the opponent cannot
+move.
+
+## Features
+A fully-featured Santorini 2-player or vs-Computer game programmed using Java with simple but appreciable
+graphic assets, also featuring 3 levels of AI difficulty.
+
+## Demo
+
+Check out this video showing the game in action!
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/5cPt6jUoMEU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="640" height="360" border="10" /></a>
+	
+## Notes
+The bulk of the project was completed in may 2014, with only minor updates since then.

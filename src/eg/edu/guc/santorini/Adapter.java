@@ -61,7 +61,6 @@ public class Adapter implements ActionListener, MouseListener {
 
 	public void mousePressed(MouseEvent e) {
 		selectedTile = (Tile) e.getSource();
-		System.out.println("-_-");
 		if(myBoard.getTurn() == myBoard.getPlayer1())
 		{
 			AiBrainV2.turn = 1;
@@ -78,16 +77,28 @@ public class Adapter implements ActionListener, MouseListener {
 				selectedTile.setBorder(BorderFactory.createLoweredSoftBevelBorder());
 				myBoard = AiBrainV2.getBestBoard(1,myBoard, myBoard.getTurn());		
 				drawBoard();
+				myWindow.setInfo("Player 1: "
+						+ myBoard.getPlayer1().getName() + "    Player 2: "
+						+ myBoard.getPlayer2().getName()
+						+ "                    Player 2's turn to move");
 				break;
 			case 2:
 				selectedTile.setBorder(BorderFactory.createLoweredSoftBevelBorder());
 				myBoard = AiBrainV2.getBestBoard(3,myBoard, myBoard.getTurn());		
 				drawBoard();
+				myWindow.setInfo("Player 1: "
+						+ myBoard.getPlayer1().getName() + "    Player 2: "
+						+ myBoard.getPlayer2().getName()
+						+ "                    Player 2's turn to move");
 				break;
 			case 3:
 				selectedTile.setBorder(BorderFactory.createLoweredSoftBevelBorder());
 				myBoard = AiBrainV2.getBestBoard(4,myBoard, myBoard.getTurn());		
 				drawBoard();
+				myWindow.setInfo("Player 1: "
+						+ myBoard.getPlayer1().getName() + "    Player 2: "
+						+ myBoard.getPlayer2().getName()
+						+ "                    Player 2's turn to move");
 				break;
 			}
 		}
@@ -106,16 +117,28 @@ public class Adapter implements ActionListener, MouseListener {
 				selectedTile.setBorder(BorderFactory.createLoweredSoftBevelBorder());
 				myBoard = AiBrainV2.getBestBoard(1,myBoard, myBoard.getTurn());		
 				drawBoard();
+				myWindow.setInfo("Player 1: "
+						+ myBoard.getPlayer1().getName() + "    Player 2: "
+						+ myBoard.getPlayer2().getName()
+						+ "                    Player 1's turn to move");
 				break;
 			case 2:
 				selectedTile.setBorder(BorderFactory.createLoweredSoftBevelBorder());
 				myBoard = AiBrainV2.getBestBoard(3,myBoard, myBoard.getTurn());		
 				drawBoard();
+				myWindow.setInfo("Player 1: "
+						+ myBoard.getPlayer1().getName() + "    Player 2: "
+						+ myBoard.getPlayer2().getName()
+						+ "                    Player 1's turn to move");
 				break;
 			case 3:
 				selectedTile.setBorder(BorderFactory.createLoweredSoftBevelBorder());
 				myBoard = AiBrainV2.getBestBoard(4,myBoard, myBoard.getTurn());		
 				drawBoard();
+				myWindow.setInfo("Player 1: "
+						+ myBoard.getPlayer1().getName() + "    Player 2: "
+						+ myBoard.getPlayer2().getName()
+						+ "                    Player 1's turn to move");
 				break;
 			}
 		}

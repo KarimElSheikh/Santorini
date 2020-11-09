@@ -73,7 +73,6 @@ public class StartAdapter implements ActionListener, MouseListener {
 			if (p1Cube.isSelected()) {
 				if (p2Cube.isSelected() || p2Pyramid.isSelected()) {
 					myWindow.startPlay(5, 5,player1Mode,player2Mode);
-					System.out.println(player1Mode + " " + player2Mode );
 				}
 				else {
 					JOptionPane.showMessageDialog(null, "You must select the Piece types");
@@ -82,7 +81,6 @@ public class StartAdapter implements ActionListener, MouseListener {
 			else if (p1Pyramid.isSelected()) {
 				if (p2Cube.isSelected() || p2Pyramid.isSelected()) {
 					myWindow.startPlay(5, 5,player1Mode,player2Mode);
-					System.out.println(player1Mode + " " + player2Mode );
 					
 				}
 				else {

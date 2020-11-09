@@ -148,7 +148,6 @@ public class Window extends JFrame {
 		info.setBorder(BorderFactory.createLineBorder(Color.white));
 		add(info, BorderLayout.NORTH);
 		labels = new Tile[rows][columns];
-		System.out.println();
 		
 		myAdapter = new Adapter(jt.getText(), jt2.getText() , this , plMode , p2Mode);
 		
