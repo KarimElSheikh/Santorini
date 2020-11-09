@@ -1,4 +1,7 @@
-## Overview
+# Santorini
+
+## Game Overview
+
 Santorini is a two player strategy board game where players play on a 5 × 5 standard chessboard, and each
 player has 2 pieces. In this version of the game, player one's pieces are placed in the locations: (1,1) and
 (2,5), and player two's pieces are placed in the locations (4,1) and (5,5).
