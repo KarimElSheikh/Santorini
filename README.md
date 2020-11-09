@@ -32,7 +32,7 @@ Check out this video showing the game in action!
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=5cPt6jUoMEU
 " target="_blank"><img src="http://img.youtube.com/vi/5cPt6jUoMEU/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="640" height="360" border="10" /></a>
+alt="http://www.youtube.com/watch?v=5cPt6jUoMEU" width="640" height="360" border="10" /></a>
 	
 ## Notes
-The bulk of the project was completed in may 2014, with only minor updates since then.
+The bulk of the project was completed in May 2014, with only minor updates since then.
