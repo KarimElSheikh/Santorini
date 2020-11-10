@@ -38,7 +38,7 @@ The game is really fun to play either with the AI or a friend, so make sure to t
 Check out this video showing the game in action!
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=5cPt6jUoMEU
-" target="_blank"><img src="https://user-images.githubusercontent.com/10839251/98710033-7412a900-2383-11eb-9fe5-344e12c6db69.png" 
+" target="_blank"><img src="https://user-images.githubusercontent.com/10839251/98710535-103cb000-2384-11eb-969f-e1867bfc7eb2.png" 
 alt="http://www.youtube.com/watch?v=5cPt6jUoMEU" width="640" height="360" border="10" /></a>
 	
 ## Notes
