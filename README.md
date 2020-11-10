@@ -1,4 +1,6 @@
-# Santorini
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/10839251/98702593-d87d3a80-237a-11eb-914f-b62041efb1ab.png" alt="Santorini logo">
+</p>
 
 ## Game Overview
 
@@ -28,6 +30,8 @@ The following is a link to a video showing an explanation of the game that shoul
 ## Features
 A fully-featured Santorini 2-player or vs-Computer game programmed using Java with simple but appreciable
 graphic assets, also featuring 3 levels of AI difficulty.
+
+The game is really fun to play either with the AI or a friend, so make sure to try it!
 
 ## Demo
 
